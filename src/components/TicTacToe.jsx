@@ -1,11 +1,7 @@
-import React from 'react'
-
+import React from 'react';
+import { Board } from './Board';
 export const TicTacToe = () => {
   return (
-    <div className="bg-blue-200">
-    <h1 className= "text-center">
-       TicTacToe 
-    </h1>
-    </div>
-  )
-}
+    <h1 className='text-center font-bold text-6xl bg-blue-700 text-yellow-600'>TicTacToe</h1>
+  );
+};

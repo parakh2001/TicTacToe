@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export const Tile = () => {
+export const Tile = ({ value, onClick, index }) => {
   return (
-    <div>X</div>
-  )
-}
+    <div 
+      className='cursor-pointer border-2 border-white flex text-7xl items-center justify-center h-24 w-24'
+      onClick={() => onClick(index)}
+    >
+      {value}
+    </div>
+  );
+};

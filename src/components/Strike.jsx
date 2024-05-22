@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Strike = () => {
   return (
-    <div></div>
+    <div className='text-red-500'></div>
   )
 }
